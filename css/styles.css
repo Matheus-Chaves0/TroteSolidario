@@ -1,0 +1,170 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0; /*espaçamento externo da pagina*/
+    padding: 0;  /*espaçamento interno da pagina*/
+    background-color: white;
+    text-align: center; /*centralizar texto*/
+}
+
+header{
+    background-color: rgb(48, 114, 236);
+    color: white;
+    padding: 15px 0px; /*15xp (espaçamento interno acima e abaixo), 0px (espaçamento a esquerda e a direita)*/
+    font-size: 24px;
+}
+
+nav {
+    background-color: rgb(78, 134, 236);
+    padding: 10px; /*espaçamneto interno*/
+    display: flex;
+    justify-content: space-between; /*espaço entre elementos do menu*/
+    align-items: center; /*alinhamento vertical*/
+
+}
+
+
+#links-menu{
+    display: flex;
+    gap: 50px; /*espaçamento emtre os elementos do nav*/
+
+}
+
+
+nav a{
+    color: white;
+    text-decoration:none ;
+    padding: 10px 15px;
+    background-color: rgb(48, 114, 236);
+    font-size: 18px;
+    border-radius: 5px; /*arredondar as bordas*/
+}
+
+
+.imagem{
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    margin-right: 30px;
+}
+
+
+.container{
+    background-color: #faebd7;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #c5c4c4;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+ol li{
+    padding-bottom: 10px;
+}
+
+
+table tr td{
+    padding: 20px;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.preto{
+    background-color: black;
+    color: white;
+}
+
+.roxo{
+    background-color: purple;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: navy;
+    color: white;
+}
+
+.campos{
+    margin-bottom: 20px;
+}
+
+.text1{
+    margin-left: 90px;
+}
+
+.text2{
+    margin-left: 35px;
+}
+
+.lbl{
+    border-color: black;
+    border: 1px solid;
+    padding-left: 90px;
+    margin-left: 18%;
+}
+
+.titulo{
+   padding-left: 40%;
+   margin-bottom: 10px;
+}
+
+.tabela{
+    margin: 0 auto;/*centralizar tabela na pag*/
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    width: 80%; /* Define uma largura (ajuste conforme necessário) */
+}
+
+.requisitos {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #0f98d7b6;
+    border-radius: 8px;
+    border-left: 4px solid #0d51d8;
+}
+
+.requisitos h3 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.requisitos h4 {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.requisitos ul {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.requisitos li {
+    margin-bottom: 8px;
+}
+
+.requisitos strong {
+    color: #0a54a4;
+}
+
+.meta {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    font-style: italic;
+}
