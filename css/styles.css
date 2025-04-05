@@ -39,7 +39,9 @@ nav a{
     border-radius: 5px; /*arredondar as bordas*/
 }
 
-
+.cinza{
+    background-color: rgb(191, 191, 191);
+}
 .imagem{
     border-radius: 50%;
     width: 120px;
@@ -49,7 +51,7 @@ nav a{
 
 
 .container{
-    background-color: #faebd7;
+    background-color: #e4dfd8;
     width: 80%;
     margin: 30px auto;
     border-radius: 15px;
@@ -100,22 +102,21 @@ table tr td{
 }
 
 .campos{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+
+
 }
 
-.text1{
-    margin-left: 90px;
-}
-
-.text2{
-    margin-left: 35px;
-}
 
 .lbl{
-    border-color: black;
-    border: 1px solid;
-    padding-left: 90px;
-    margin-left: 18%;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    
 }
 
 .titulo{
@@ -167,4 +168,55 @@ table tr td{
     background-color: #e8f5e9;
     border-radius: 5px;
     font-style: italic;
+}
+
+.importante{
+    background-color: #F0E68C;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #eee148;
+}
+#integracao{
+    background-color: #c5c4c4;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #969696;
+}
+#caixa{
+    width: 300px;
+    margin: 0 auto; /* centraliza horizontalmente */
+    padding-left: 185px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #357ef2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-right: 40px;
+}
+.btn:hover {
+    background-color: #0c47a1;
+  }
+.home{
+    background-color: #e4dfd8;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #c5c4c4;
+    padding: 20px;
+    text-align: justify;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    text-align: center;
+
 }
